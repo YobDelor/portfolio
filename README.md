@@ -2,9 +2,6 @@
 
 Bienvenue sur le dépôt de mon portfolio personnel ! Ce site a été conçu pour présenter mon parcours, mes compétences et mes projets de développement.
 
-**[Voir le site en ligne](https://ton-lien-netlify.netlify.app)** *(Remplace ce lien par ton URL Netlify)*
-
-![Aperçu du Portfolio](assets/images/profile.jpg) *(Optionnel : Tu peux remplacer par une capture d'écran du site)*
 
 ## À propos du projet
 
@@ -29,3 +26,31 @@ Le projet ne nécessite aucune compilation ou installation de dépendances lourd
 1. Clonez ce dépôt :
    ```bash
    git clone https://github.com/YobDelor/portfolio.git
+   ```
+2. Ouvrez le dossier du projet dans votre terminal et lancez un serveur local :
+   ```bash
+   python -m http.server 8000
+   ```
+3. Ouvrez votre navigateur et accédez à `http://localhost:8000`.
+
+
+## Structure du projet
+
+```text
+├── assets/
+│   ├── css/          # Feuilles de style (thèmes, responsive)
+│   ├── images/       # Images et portraits
+│   └── js/           # Logique JavaScript (données, interactions)
+├── index.html        # Page principale
+├── merci.html        # Page de confirmation du formulaire
+└── README.md         # Ce fichier
+```
+
+## Me contacter
+
+- **GitHub** : [@YobDelor](https://github.com/YobDelor)
+
+
+---
+*Design original par [HTML5 UP](https://html5up.net/), distribué sous licence [CC BY 3.0](https://html5up.net/license).*
+```
